@@ -1,0 +1,194 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "graphic" (version "1.4"))
+(pin
+	(input)
+	(rect 240 376 408 392)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "clk_clk" (rect 5 0 39 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 240 504 408 520)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "reset_reset_n" (rect 5 0 72 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(output)
+	(rect 128 416 408 432)
+	(text "OUTPUT" (rect 241 6 279 16)(font "Arial" (font_size 6)))
+	(text "generator_0_conduit_end_a_out[6..0]" (rect 5 4 186 16)(font "Arial" ))
+	(pt 280 8)
+	(drawing
+		(line (pt 280 8)(pt 228 8))
+		(line (pt 228 12)(pt 202 12))
+		(line (pt 228 4)(pt 202 4))
+		(line (pt 228 4)(pt 228 12))
+		(line (pt 202 12)(pt 198 8))
+		(line (pt 198 8)(pt 202 4))
+		(line (pt 202 4)(pt 198 8))
+	)
+	(rotate180)
+)
+(pin
+	(output)
+	(rect 128 432 408 448)
+	(text "OUTPUT" (rect 241 6 279 16)(font "Arial" (font_size 6)))
+	(text "generator_0_conduit_end_b_out[6..0]" (rect 5 4 186 16)(font "Arial" ))
+	(pt 280 8)
+	(drawing
+		(line (pt 280 8)(pt 228 8))
+		(line (pt 228 12)(pt 202 12))
+		(line (pt 228 4)(pt 202 4))
+		(line (pt 228 4)(pt 228 12))
+		(line (pt 202 12)(pt 198 8))
+		(line (pt 198 8)(pt 202 4))
+		(line (pt 202 4)(pt 198 8))
+	)
+	(rotate180)
+)
+(pin
+	(output)
+	(rect 128 448 408 464)
+	(text "OUTPUT" (rect 241 6 279 16)(font "Arial" (font_size 6)))
+	(text "generator_0_conduit_end_c_out[6..0]" (rect 5 4 186 16)(font "Arial" ))
+	(pt 280 8)
+	(drawing
+		(line (pt 280 8)(pt 228 8))
+		(line (pt 228 12)(pt 202 12))
+		(line (pt 228 4)(pt 202 4))
+		(line (pt 228 4)(pt 228 12))
+		(line (pt 202 12)(pt 198 8))
+		(line (pt 198 8)(pt 202 4))
+		(line (pt 202 4)(pt 198 8))
+	)
+	(rotate180)
+)
+(pin
+	(output)
+	(rect 128 464 408 480)
+	(text "OUTPUT" (rect 241 6 279 16)(font "Arial" (font_size 6)))
+	(text "generator_0_conduit_end_d_out[6..0]" (rect 5 4 186 16)(font "Arial" ))
+	(pt 280 8)
+	(drawing
+		(line (pt 280 8)(pt 228 8))
+		(line (pt 228 12)(pt 202 12))
+		(line (pt 228 4)(pt 202 4))
+		(line (pt 228 4)(pt 228 12))
+		(line (pt 202 12)(pt 198 8))
+		(line (pt 198 8)(pt 202 4))
+		(line (pt 202 4)(pt 198 8))
+	)
+	(rotate180)
+)
+(symbol
+	(rect 408 312 888 544)
+	(text "qsys" (rect 227 -1 260 15)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 216 25 228)(font "Arial" ))
+	(port
+		(pt 0 72)
+		(input)
+		(text "clk_clk" (rect 0 0 37 14)(font "Arial" (font_size 8)))
+		(text "clk_clk" (rect 4 61 41 75)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 208 72))
+	)
+	(port
+		(pt 0 200)
+		(input)
+		(text "reset_reset_n" (rect 0 0 80 14)(font "Arial" (font_size 8)))
+		(text "reset_reset_n" (rect 4 189 84 203)(font "Arial" (font_size 8)))
+		(line (pt 0 200)(pt 208 200))
+	)
+	(port
+		(pt 0 112)
+		(output)
+		(text "generator_0_conduit_end_a_out[6..0]" (rect 0 0 213 14)(font "Arial" (font_size 8)))
+		(text "generator_0_conduit_end_a_out[6..0]" (rect 4 101 217 115)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 208 112)(line_width 3))
+	)
+	(port
+		(pt 0 128)
+		(output)
+		(text "generator_0_conduit_end_b_out[6..0]" (rect 0 0 213 14)(font "Arial" (font_size 8)))
+		(text "generator_0_conduit_end_b_out[6..0]" (rect 4 117 217 131)(font "Arial" (font_size 8)))
+		(line (pt 0 128)(pt 208 128)(line_width 3))
+	)
+	(port
+		(pt 0 144)
+		(output)
+		(text "generator_0_conduit_end_c_out[6..0]" (rect 0 0 213 14)(font "Arial" (font_size 8)))
+		(text "generator_0_conduit_end_c_out[6..0]" (rect 4 133 217 147)(font "Arial" (font_size 8)))
+		(line (pt 0 144)(pt 208 144)(line_width 3))
+	)
+	(port
+		(pt 0 160)
+		(output)
+		(text "generator_0_conduit_end_d_out[6..0]" (rect 0 0 213 14)(font "Arial" (font_size 8)))
+		(text "generator_0_conduit_end_d_out[6..0]" (rect 4 149 217 163)(font "Arial" (font_size 8)))
+		(line (pt 0 160)(pt 208 160)(line_width 3))
+	)
+	(drawing
+		(text "clk" (rect 193 43 210 58)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 213 67 227 79)(font "Arial" (color 0 0 0)))
+		(text "generator_0_conduit_end" (rect 60 83 227 98)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "a_out" (rect 213 107 240 119)(font "Arial" (color 0 0 0)))
+		(text "b_out" (rect 213 123 240 135)(font "Arial" (color 0 0 0)))
+		(text "c_out" (rect 213 139 240 151)(font "Arial" (color 0 0 0)))
+		(text "d_out" (rect 213 155 240 167)(font "Arial" (color 0 0 0)))
+		(text "reset" (rect 179 171 212 186)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "reset_n" (rect 213 195 249 207)(font "Arial" (color 0 0 0)))
+		(text " qsys " (rect 456 216 487 228)(font "Arial" ))
+		(line (pt 209 52)(pt 209 76))
+		(line (pt 210 52)(pt 210 76))
+		(line (pt 209 92)(pt 209 164))
+		(line (pt 210 92)(pt 210 164))
+		(line (pt 209 180)(pt 209 204))
+		(line (pt 210 180)(pt 210 204))
+		(line (pt 208 32)(pt 272 32))
+		(line (pt 272 32)(pt 272 216))
+		(line (pt 208 216)(pt 272 216))
+		(line (pt 208 32)(pt 208 216))
+		(line (pt 0 0)(pt 480 0))
+		(line (pt 480 0)(pt 480 232))
+		(line (pt 0 232)(pt 480 232))
+		(line (pt 0 0)(pt 0 232))
+	)
+)

@@ -1,0 +1,17 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity key_controller is
+
+	port 
+	(
+		
+	);
+
+end key_controller;
+
+architecture rtl of key_controller is
+
+begin
+
+end rtl;

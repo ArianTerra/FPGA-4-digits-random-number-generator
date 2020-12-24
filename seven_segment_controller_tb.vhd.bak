@@ -1,0 +1,39 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity seven_segment_controller_tb is
+end entity;
+
+architecture rtl of seven_segment_controller_tb is
+	component seven_segment_controller is
+		
+	end component;
+
+signal clk_t 			: std_logic; 		--out clk
+
+	
+begin
+		inst0: seven_segment_controller 
+		port map(
+			clk 			=> clk_t,
+			
+		);
+	--input
+	process
+	begin
+		wait for 200ps;
+		key_in_t <= '1';
+		wait for 200ps;
+		key_in_t <= '0';
+	end process;
+	
+	process
+	begin
+		wait for 10ps;
+		clk_t <= '1';
+		wait for 10ps;
+		clk_t <= '0';
+		
+	end process;
+	
+end rtl;
